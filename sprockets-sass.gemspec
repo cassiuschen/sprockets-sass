@@ -19,13 +19,13 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
 
   s.add_dependency             'sprockets',         '~> 2.0'
-  s.add_dependency             'tilt',              '~> 1.1'
+  s.add_dependency             'tilt'
   s.add_development_dependency 'appraisal',         '~> 0.5'
   s.add_development_dependency 'rspec',             '~> 2.13'
   s.add_development_dependency 'test_construct',    '~> 2.0'
   s.add_development_dependency 'sprockets-helpers', '~> 1.0'
-  s.add_development_dependency 'sass',              '~> 3.3'
-  s.add_development_dependency 'compass',           '~> 1.0.0.alpha.19'
+  s.add_development_dependency 'sass'
+  s.add_development_dependency 'compass'
   s.add_development_dependency 'rake'
   s.add_development_dependency 'pry'
 end
